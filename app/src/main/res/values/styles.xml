@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MyTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <item name="actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+</style>
+
+<style name="MyTheme.ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+<item name="subtitleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+</style>
+
+<style name="MyTheme.ActionBar.TitleTextStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+<item name="android:textColor">@color/gray</item>
+</style>
+</resources>
